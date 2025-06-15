@@ -17,7 +17,7 @@ namespace LoteriasPr
             int max = 60;            
             int sorteados = 6;            
             int apostados = 7;
-
+            ///TODO - DO THE INPUTS TO THE VARS ABOVE CANNOT BE CONSTANTS LIKE THAT.
             var aposta = new Aposta(min, max, sorteados, apostados);
             var calculadora = new CalculadoraService();
             string texto = string.Empty;
