@@ -11,7 +11,12 @@ public static class MatematicaHelper
             resultado *= i;
         return resultado;
     }
-
+    /// <summary>
+    /// CORRECT BIGINTEGER AFTER
+    /// </summary>
+    /// <param name="n"></param>
+    /// <param name="k"></param>
+    /// <returns></returns>
     public static BigInteger Combinacao(int n, int k)
     {
         return Fatorial(n) / (Fatorial(k) * Fatorial(n - k));
